@@ -12,6 +12,7 @@ A full-stack food ordering application with user and admin interfaces.
 - **Payment Processing**: Simulated payment system with multiple payment methods
 - **Invoicing**: Automatic invoice generation for orders
 
+
 ## Technology Stack
 
 ### Frontend
