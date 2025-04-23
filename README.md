@@ -117,21 +117,25 @@ A full-stack food ordering application with user and admin interfaces.
 - `POST /api/carts/:id/update_item_quantity/` - Update item quantity
 - `POST /api/carts/:id/checkout/` - Process checkout
 
+
 ### Orders
 - `GET /api/orders/` - List all orders (filtered by user for non-admins)
 - `GET /api/orders/:id/` - Get order details
 - `POST /api/orders/:id/update_status/` - Update order status (admin only)
+
 
 ### Invoices
 - `GET /api/invoices/get_by_order/?order_id=<uuid>` - Get invoice by order ID
 
 ## User Roles
 
+
 ### Admin
 - Full access to all features
 - Manage food items and categories
 - Process orders and update status
 - View all orders and user data
+
 
 ### Regular User
 - Browse menu and search for items
@@ -141,9 +145,11 @@ A full-stack food ordering application with user and admin interfaces.
 
 ## Data Persistence
 
+
 The application uses SQLite as the default database for development. All data is stored persistently and will be available even after restarting the application.
 
 ## Deployment
+
 
 For production deployment:
 1. Update `DEBUG = False` in settings.py
@@ -152,5 +158,6 @@ For production deployment:
 4. Use a production WSGI server like Gunicorn with Nginx
 
 ## License
+
 
 [MIT License](LICENSE)
