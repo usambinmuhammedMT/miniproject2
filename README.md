@@ -13,6 +13,7 @@ A full-stack food ordering application with user and admin interfaces.
 - **Invoicing**: Automatic invoice generation for orders
 
 
+
 ## Technology Stack
 
 ### Frontend
