@@ -4,6 +4,7 @@
 
 A full-stack food ordering application with user and admin interfaces.
 
+
 ## Features
 
 - **User Features**: Browse menu, add items to cart, place orders, view order history and invoices
