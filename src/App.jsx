@@ -18,8 +18,7 @@ import OrderHistory from './pages/user/OrderHistory';
 import CheckoutPage from './pages/CheckoutPage';
 import UserLayout from './layouts/UserLayout';
 
-export const API_URL = 'http://localhost:8000/api'; 
-
+export const API_URL = 'https://miniproject2-gfn6.onrender.com/api';
 
 function App() {
   const [isAuthenticated, setIsAuthenticated] = useState(false);

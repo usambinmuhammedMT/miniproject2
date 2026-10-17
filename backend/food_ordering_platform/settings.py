@@ -61,6 +61,7 @@ MIDDLEWARE = [
 # CORS settings
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
+    "https://your-actual-vercel-domain.vercel.app",
 ] # For development only, configure more strictly in production
 
 ROOT_URLCONF = 'food_ordering_platform.urls'
